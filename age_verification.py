@@ -1,4 +1,3 @@
-#Develop a program for a marketing team in a consumer goods company. The program should ask for a customer's age (an integer) to determine eligibility for age-restricted promotions (e.g., must be 18 or older). Use try-except to catch ValueError for non-integer inputs and NameError if a variable is referenced incorrectly (simulate this by initially commenting out a variable definition). Implement a function get_customer_age that loops until a valid positive integer is provided, then prints whether the customer is eligible for the promotion based on their age.
 # Age Verification Program
 # This program checks if a customer is eligible for age-restricted promotions
 # Ask user for valid age (positive integer)
@@ -29,4 +28,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
